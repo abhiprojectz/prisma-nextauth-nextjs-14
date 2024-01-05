@@ -1,0 +1,20 @@
+const env = {
+  NEXT_PUBLIC_APP_URL: process.env.NEXT_PUBLIC_APP_URL,
+  NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET,
+  NEXTAUTH_URL: process.env.NEXTAUTH_URL,
+
+  POSTGRES_HOST: process.env.POSTGRES_HOST,
+  POSTGRES_PORT: process.env.POSTGRES_PORT,
+  POSTGRES_USER: process.env.POSTGRES_USER,
+
+  POSTGRES_PASSWORD: process.env.POSTGRES_PASSWORD,
+  POSTGRES_DB: process.env.POSTGRES_DB,
+  DATABASE_URL: process.env.DATABASE_URL,
+
+  GITHUB_ID: process.env.GITHUB_ID,
+  GITHUB_SECRET: process.env.GITHUB_SECRET,
+  GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID,
+  GOOGLE_CLIENT_SECRET: process.env.GOOGLE_CLIENT_SECRET,
+};
+
+export default env;
